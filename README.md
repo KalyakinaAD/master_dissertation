@@ -1,1 +1,1 @@
-# master_dissertation
+# Магистерская диссертация
