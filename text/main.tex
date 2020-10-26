@@ -1,5 +1,6 @@
 \documentclass[oneside,final,12pt]{extarticle}
 %\documentclass[oneside,draft,12pt]{extarticle}
+\usepackage[normalem]{ulem}  % для зачекивания текста
 \usepackage[unicode]{hyperref}
 \hypersetup{draft=false,bookmarksnumbered,bookmarksopen}
 \usepackage{cmap}
@@ -13,6 +14,8 @@
 \sloppy % Предотвращает вылезание строки за правый край.
 %\fussy % Строки будут вылазить за правый край.
 \usepackage{graphicx}
+\graphicspath{{figures/}}
+\DeclareGraphicsExtensions{.pdf,.png,.jpg}
 \usepackage{setspace}
 \onehalfspacing
 \clubpenalty=9999
